@@ -13,3 +13,8 @@ dist/
 .env.*
 .DS_Store
 Thumbs.db
+
+# Keep private notes and local account data out of public source control
+memora/
+*auth.json
+.credentials/
